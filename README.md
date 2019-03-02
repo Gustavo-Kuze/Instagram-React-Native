@@ -29,4 +29,4 @@ Se eu te ajudei de alguma forma, me segue aí no Github!
 Qualquer dúvida estou à disposição!
 
 ### Algumas notas extras
-Para evitar que um erro de "caractere não reconhecido" acontecesse, eu alterei o arquivo settings.gradle do projeto android, e adicionei uma barra invertida ("\") extra às strings. Talvez isso não seja necessário para que o projeto funcione devidamente para você.
+Para evitar que um erro de "caractere não reconhecido" acontecesse, eu alterei o arquivo settings.gradle do projeto android, e adicionei uma barra invertida ("\\") extra às strings. Talvez isso não seja necessário para que o projeto funcione devidamente para você.
