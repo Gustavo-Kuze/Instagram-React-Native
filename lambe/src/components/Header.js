@@ -1,6 +1,8 @@
+import '../../assets/fonts/shelter.otf'
 import React, { Component } from 'react'
 import { Text, View, StyleSheet, Platform, Image } from 'react-native'
 import icon from '../../assets/imgs/icon.png'
+
 
 class Header extends Component {
     render() {
