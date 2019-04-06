@@ -9,7 +9,7 @@ class Post extends Component {
     return (
       <View style={styles.container}>
         <Image source={this.props.image} style={styles.image}/>
-        <Autor email="gustavoksilva3@hotmail.com" nickname="Fulano_de_tal"/>
+        <Autor email={this.props.email} nickname={this.props.nickname}/>
         <Comments comments={this.props.comments}/>
         <AddComment />
       </View>
@@ -17,7 +17,7 @@ class Post extends Component {
   }
 }
 
-const styles = {
+const styles = StyleSheet.create({
     container: {
         flex: 1
     },
@@ -26,6 +26,6 @@ const styles = {
         height: Dimensions.get('window').width * 3 / 4,
         resizeMode: 'contain'
     }
-}
+})
 
 export default Post
